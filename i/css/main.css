@@ -1,0 +1,264 @@
+/** Basic elements */
+html {
+	margin:				0;
+	padding:			0;
+	border:				0;
+}
+
+body {
+	font-family:		verdana, arial, sans-serif;
+	margin:				0;
+	padding:			0;
+	background-color:	#2B0C11;
+	color:				#000000;
+}
+
+body, p, li {
+	font-size:			13px; 
+}
+
+p {
+	margin:				0 12px 12px 12px;
+	padding:			0;
+	line-height:		15px;
+}
+
+h1 {
+	padding:			12px 0;
+	font-size:			14px;
+}
+
+h2 {
+	font-size:			13px;
+}
+
+h3 {
+	font-size:			12px;
+}
+
+h1, h2, h3 {
+	margin:				0;
+	padding:			0 12px;
+	font-weight:		bold;
+	line-height:		19px;	
+}
+
+ul {
+	margin:				12px;
+	padding:			0;
+}
+
+dl {
+	margin:				12px;
+	padding:			0;
+}
+
+/** Layout elements */
+div#wrapper {
+	margin:				25px auto 25px auto;
+	padding:			25px;
+	width:				750px;
+	text-align:			justify;
+	background-color:	#2B0C11;
+	color:				#FFFFFF;
+	border:				1px solid #2B0C11; 
+}
+
+div#header {
+	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/tauntedechoes-header.jpg");
+	height:				150px;
+	margin:				0 0 10px 0;
+	padding:			10px;
+	text-align:			center;
+	color:				#000000;
+	border-top:			2px solid #95281E;
+}
+
+div#header h1 {
+	margin:				1.0em 0 1.0em 0;
+	padding:			0 12px;
+	font-weight:		bold;
+	font-size:			1.7em;
+	line-height:		1.2em;
+	color:				#FFFFFF;
+}
+
+div#header h2 {
+	margin:				0;
+	padding:			0 12px;
+	font-weight:		bold;
+	font-size:			1.3em;
+	color:				#FFFFFF;
+}
+
+div#content {
+	margin:				0 0 10px 0;
+	padding:			5px 0 0 0;
+	float:				right;
+	width:				75%;
+	color:				#000000;
+	background:			#FEFBCB;
+	border-top:			2px solid #95281E;
+	border-right:		2px solid #95281E;
+}
+
+div#content a {
+	background:			#FEFBCB;
+	color:				#281E94;
+	text-decoration:	underline;
+}
+
+div#content a[href ^="http://"] {
+	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/external.png") center right no-repeat;
+	padding-right:		13px;
+}
+
+div#content ul {
+	list-style:			square;
+	margin-left:		25px;
+}
+
+div#sidebar {
+	margin:				0;
+	padding:			0;
+	float:				left;
+	width:				22%;
+}
+
+div#sidebar h2 {
+	padding-bottom:		2px;
+	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/h2grad.png") left repeat-x; /*#12663E;*/
+	color:				white;
+}
+
+div#sidebar a {
+	background:			#FEFBCB;
+	color:				#55181B;
+	text-decoration:	underline;
+}
+
+div#navigation {
+	width:				100%;
+	margin:				0 0 25px 0;
+	padding:			0 0 5px 0;
+	color:				#000000;
+	background:			#FEFBCB;
+	border-top:			2px solid #95281E;
+	border-left:		2px solid #95281E;
+}
+
+#navigation li {
+	font-size:			12px;
+	margin:				0 0 5px 0;
+	padding:			0;
+	color:				#FFFFFF;
+	background:			#FEFBCB; 
+	list-style-type:	none;
+	border-left:		3px solid #55181B;
+	border-bottom:		1px solid #55181B;
+}
+
+#navigation li a {
+	margin:				0;
+	padding:			5px 0 5px 5px;
+	background:			#FEFBCB;
+	color:				#55181B;
+	display:			block;
+	text-decoration:	none;
+}
+
+#navigation li a:hover {
+	color:				#FEFBCB;
+	/*background:			#55181B;*/
+	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/h2grad.png") left repeat-x; /*#12663E;*/
+
+	margin:				0;
+	padding:			5px 0 5px 5px;
+	text-decoration:	none;
+}
+
+#navigation li.current {
+	color:				white;
+	background:			#12663E;
+	margin:				0;
+	padding:			5px 0 5px 5px;
+}
+
+.article {
+	margin:				0 5px 0 5px;
+	padding:			5px;
+}
+
+.article h4 {
+	padding:			5px;
+	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/h2grad.png") left repeat-x; /*#12663E;*/
+	color:				white;
+
+}
+
+.sidebar_content {
+	width:				100%;
+	margin:				0 0 25px 0;
+	padding:			0 0 5px 0;
+	color:				#000000;
+	background:			#FEFBCB;
+	border-top:			2px solid #95281E;
+	border-left:		2px solid #95281E;
+}
+
+.sidebar_content > p {
+	margin-top:			5px;
+}
+.sidebar_content img {
+	margin:				10px auto;
+	display:			block;
+	border:				1px solid #12663E;
+}
+
+.sidebar_content ul {
+	list-style:			none;
+	margin-left:		15px;
+}
+
+div#footer {
+	height:				16px;
+	clear:				both;
+	padding:			10px;
+	background:			#FEFBCB;
+	color:				#000000;
+	border-top:			1px solid #12663E;
+	border-bottom:		2px solid #95281E;
+}
+
+div#footer a {
+	background:			#FEFBCB;
+	color:				#55181B;
+	text-decoration:	underline;
+}
+
+div#nav-end {
+	margin:				0;
+	font-size:			11px;
+	text-align:			center;
+	clear:				both;
+	padding:			10px 0;
+	color:				#000000;
+}
+	
+div#nav-end a {
+	color:				#281E94;
+	text-decoration:	underline;
+}
+
+
+.left {
+	float:				left;
+	margin:				0;
+	padding:			0;
+}
+
+.right {
+	float:				right;
+	margin:				0;
+	padding:			0;
+}
