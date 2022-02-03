@@ -65,7 +65,7 @@ div#wrapper {
 }
 
 div#header {
-	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/tauntedechoes-header.jpg");
+	background:			url("/i/images/tauntedechoes-header.jpg");
 	height:				150px;
 	margin:				0 0 10px 0;
 	padding:			10px;
@@ -109,7 +109,7 @@ div#content a {
 }
 
 div#content a[href ^="http://"] {
-	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/external.png") center right no-repeat;
+	background:			url("/i/images/external.png") center right no-repeat;
 	padding-right:		13px;
 }
 
@@ -127,7 +127,7 @@ div#sidebar {
 
 div#sidebar h2 {
 	padding-bottom:		2px;
-	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/h2grad.png") left repeat-x; /*#12663E;*/
+	background:			url("/i/images/h2grad.png") left repeat-x; /*#12663E;*/
 	color:				white;
 }
 
@@ -170,7 +170,7 @@ div#navigation {
 #navigation li a:hover {
 	color:				#FEFBCB;
 	/*background:			#55181B;*/
-	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/h2grad.png") left repeat-x; /*#12663E;*/
+	background:			url("/i/images/h2grad.png") left repeat-x; /*#12663E;*/
 
 	margin:				0;
 	padding:			5px 0 5px 5px;
@@ -191,7 +191,7 @@ div#navigation {
 
 .article h4 {
 	padding:			5px;
-	background:			url("/web/20181016233714im_/https://tauntedechoes.com/i/images/h2grad.png") left repeat-x; /*#12663E;*/
+	background:			url("/i/images/h2grad.png") left repeat-x; /*#12663E;*/
 	color:				white;
 
 }
