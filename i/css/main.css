@@ -65,6 +65,10 @@ tbody tr:nth-child(odd) {
     color: #fff;
 }
 
+tbody tr:nth-child(odd) a {
+    background-color:	#87856C;
+}
+
 th, td {
     padding:            10px;
     border:             0;
