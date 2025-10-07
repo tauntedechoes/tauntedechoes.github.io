@@ -18,13 +18,13 @@ body, p, li {
 }
 
 table {
-    margin:             0;
-    padding:            12px;
+    margin:             12px;
+    padding:            0;
     border:             1px solid;
 }
 
 th, td {
-    padding:            10px;
+    padding:            5px;
     border:             1px solid;
 }
 
