@@ -17,17 +17,6 @@ body, p, li {
 	font-size:			13px; 
 }
 
-table {
-    margin:             12px;
-    padding:            0;
-    border:             1px solid;
-}
-
-th, td {
-    padding:            5px;
-    border:             1px solid;
-}
-
 p {
 	margin:				0 12px 12px 12px;
 	padding:			0;
