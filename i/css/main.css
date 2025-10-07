@@ -54,14 +54,15 @@ dl {
 }
 
 table {
-    margin:             0;
-    padding:            12px;
+    margin:             12px;
+    padding:            0;
     border-collapse:    collapse;
     border:             1px solid;
 }
 
 th, td {
     padding:            10px;
+    border:             1px solid;
 }
 
 /** Layout elements */
