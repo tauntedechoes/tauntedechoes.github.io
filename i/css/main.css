@@ -60,6 +60,11 @@ table {
     border:             1px solid;
 }
 
+tbody tr:nth-child(odd) {
+    background-color:	##B8B593;
+    color: #fff;
+}
+
 th, td {
     padding:            10px;
     border:             1px solid;
