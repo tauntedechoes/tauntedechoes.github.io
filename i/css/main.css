@@ -123,14 +123,6 @@ div#content {
 	border-right:		2px solid #95281E;
 }
 
-/*
-div#content a {
-	background:			#FEFBCB;
-	color:				#281E94;
-	text-decoration:	underline;
-}
-*/
-
 div#content a[href ^="http://"] {
 	background:			url("/i/images/external.png") center right no-repeat;
 	padding-right:		13px;
