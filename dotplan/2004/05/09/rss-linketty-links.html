@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="i/css/main.css">
+    <title>TAUNTEDECHOES - .plan - RSS Linkity Links</title>
+    <style>@import "/i/css/main.css";</style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <!--
+        <h1>TAUNTED ECHOES</h1>
+        <h2>If there's an echo, we shall taunt it..</h2>
+      -->
+      </div>
+
+      <div id="contentwrapper">
+        <div id="content">
+            <h2>.plan - RSS Linkity Links</h2>
+            <h3>Posted 2004-05-09 at 23:23</h3>
+
+            <p><em>In which I share some RSS links.</em></p>
+            <p>I thought I'd drop in the links that I found on RSS 2.0:</p>
+            <ul>
+                <li><a href="http://blogs.law.harvard.edu/tech/rss">RSS 2.0 Specification</a></li>
+                <li><a href="http://www.disobey.com/detergent/2002/extendingrss2/">Extending RSS 2.0 with Namespaces</a></li>
+                <li><a href="http://www-106.ibm.com/developerworks/xml/library/x-rss20/">Content Feeds with RSS 2.0 (IBM)</a></li>
+                <li><a href="http://backend.userland.com/davesRss2PoliticalFaq">Dave Winer's RSS 2.0 Political F.A.Q.</a></li>
+            </ul>
+
+            <p>I've been thinking about how to use RSS to shuffle around the data, and I think that it's going to this:  on script that publishes the XML to the web, and a separate script that doesn't output anything, but returns useful values.  the publish script will pull from the functions script, and so will anything else that wants the data.  I mentioned this last night when I posted, but it definately seems like this is the way to go, so I thought that I'd mention it again.</p>
+
+            <p>I've worked up a <a href="http://s89994741.onlinehome.us/bookmarks/bookmarks_test_rss.xml">test RSS feed</a> that validates, that I'm going to use as a template.  The neat thing that I'm doing with it, I think, is using the <strong>&lt;guid&gt; field</strong> as a link back to the bookmark or group edit page, and the <strong>&lt;link&gt; field</strong> as the bookmark or group link proper.  it seems to fall into what the spec meant to have the guid field used for, I think.  this should work just fine with groups or bookmarks.</p>
+
+            <p><em>Author's Note: This was imported from a Blogger blog on 2025-09-09.</em></p>
+
+        </div>
+      </div>
+      <div id="sidebar">
+        <div id="navigation">
+          <ul id="navlist">
+            <li><a href="https://tauntedechoes.com/">home</a></li>
+            <li><a href="/about">about</a></li>
+            <li><a href="/books">books</a></li>
+            <li><a href="/music">music</a></li>
+            <li><a href="/dotplan">.plan</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="footer">
+        <div>
+          <span class="left">&copy; 2007-2026 Shane Doucette.</span>
+          <span class="right">This is valid: <a href="https://validator.w3.org/check?uri=referer">HTML5</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS3</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
